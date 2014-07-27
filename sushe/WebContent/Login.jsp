@@ -47,7 +47,7 @@ return re.test(str);
       <td height="292" align="center" valign="top" background="Images/LoginBg.jpg">
       <table width="350" height="201" border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td height="72" align="center"><h3>校园宿舍管理系统</h3></td>
+          <td height="72" align="center"><h3>托管所管理系统</h3></td>
         </tr>
         <tr>
           <td align="center" valign="top">
