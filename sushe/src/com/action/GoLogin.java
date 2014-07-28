@@ -42,7 +42,7 @@ public class GoLogin extends ActionSupport {
 	public String execute() throws Exception {
 		
 		
-		
+		System.err.println("--qlj start ------------------------------------------");
 		if(Type.equals("系统管理员"))
 		{
 			if (null == new AdminDao().CheckLogin(Username, Password)) {

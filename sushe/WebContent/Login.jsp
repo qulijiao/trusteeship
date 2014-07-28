@@ -51,7 +51,7 @@ return re.test(str);
         </tr>
         <tr>
           <td align="center" valign="top">
-             <form name="form1" action="GoLogin.action" method="post" onSubmit="return mycheck()">
+             <form name="form1" action="GoLogin.action" method="post" onSubmit="return false">
               <table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td height="30" colspan="2" align="center" class="STYLE2"><span style="color:red;">
