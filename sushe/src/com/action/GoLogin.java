@@ -14,6 +14,16 @@ public class GoLogin extends ActionSupport {
 	private String Username;
 	private String Password;
 	private String Msg;
+	private String testname;
+	
+	public String getTestname() {
+		System.err.println("-----------getTestname---------------------------"+testname);
+		return testname;
+	}
+	public void setTestname(String testname) {
+		System.err.println("==============setTestname============================="+testname); 
+		testname = testname;
+	}
 	public String getType() {
 		return Type;
 	}
@@ -43,6 +53,8 @@ public class GoLogin extends ActionSupport {
 		
 		
 		System.err.println("--qlj start ------------------------------------------");
+		System.err.println("--qlj execute -----------INPUT="+INPUT);
+		System.err.println("--qlj execute -----------SUCCESS="+SUCCESS);
 		if(Type.equals("系统管理员"))
 		{
 			if (null == new AdminDao().CheckLogin(Username, Password)) {

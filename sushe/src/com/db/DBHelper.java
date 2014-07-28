@@ -8,6 +8,7 @@ public class DBHelper {
 	private String dbPassword="sa";
 	private String jdbcName="com.mysql.jdbc.Driver";
 	
+	
 	//连接数据库
 	public Connection getConn(){
 		Connection conn = null;
@@ -25,7 +26,14 @@ public class DBHelper {
 //    测试
 	public static void main(String[] args)
 	{
+		Connection c = new DBHelper().getConn();
 		System.out.println(new DBHelper().getConn());
+		try {
+			System.err.println(c.isClosed());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	

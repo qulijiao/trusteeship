@@ -17,31 +17,31 @@
                 </tr>
                 <%if(session.getAttribute("type").toString().equals("1")){%>
                 <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="TeacherManager.action">楼宇管理员管理</a></td>
+                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="TeacherManager.action">托管所登记管理</a></td>
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
                 <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentManager.action">学生管理</a></td>
+                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentManager.action">学生名册管理</a></td>
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
                 <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="BuildingManager.action">楼宇管理</a></td>
+                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="DomitoryManager.action">家长管理</a></td>
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
                 <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="DomitoryManager.action">宿舍管理</a></td>
+                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="BuildingManager.action">消息通知管理</a></td>
                 </tr>
                 <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentRZ.action">学生入住登记</a></td>
+                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentRZ.action">托管所资料编辑</a></td>
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>

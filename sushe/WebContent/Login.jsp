@@ -51,7 +51,7 @@ return re.test(str);
         </tr>
         <tr>
           <td align="center" valign="top">
-             <form name="form1" action="GoLogin.action" method="post" onSubmit="return false">
+             <form name="form1" action="GoLogin.action" method="post" onSubmit="return mycheck()">
               <table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td height="30" colspan="2" align="center" class="STYLE2"><span style="color:red;">
@@ -63,8 +63,8 @@ return re.test(str);
                 <tr>
                   <td height="30" align="right" class="STYLE2">身份：</td>
                   <td align="left"><select name="Type" id="Type">
-                    <option value="">请选择</option>
                     <option value="系统管理员">系统管理员</option>
+                    <option value="">请选择</option>
                     <option value="楼宇管理员">楼宇管理员</option>
                     <option value="学生">学生</option>
                   </select></td>
@@ -77,7 +77,13 @@ return re.test(str);
                   <td height="30" align="right" class="STYLE2">密码：</td>
                   <td align="left"><input type="password" name="Password" id="Password" class="text1" /></td>
                   </tr>
+                                  <tr>
+                  <td height="30" align="right" class="STYLE2">测试：</td>
+                  <td align="left"><input type="text" name="testname" id="testname" class="text1" /></td>
+                  </tr>
                 <tr>
+                
+
                   <td height="30" colspan="2" align="center"><label>
                     <input type="submit" name="button" id="button" value="登录">
                   </label></td>

@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <center>
   <table width="900" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td height="60" bgcolor="#E6F5FF" style="color:#06F; font-size:19px; font-weight:bolder; padding-left:50px;">校园宿舍管理系统</td>
+      <td height="60" bgcolor="#E6F5FF" style="color:#06F; font-size:19px; font-weight:bolder; padding-left:50px;">托管所管理系统</td>
     </tr>
     <tr>
       <td height="30" background="Images/MenuBg.jpg">&nbsp;</td>
@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <td width="191" height="500" align="center" valign="top" background="Images/leftbg.jpg">
           <%@ include file="Left.jsp"%>
           </td>
-          <td width="709" align="center" valign="middle" bgcolor="#F6F9FE"><h1>欢迎使用校园宿舍管理系统</h1></td>
+          <td width="709" align="center" valign="middle" bgcolor="#F6F9FE"><h1>欢迎使用托管所管理系统</h1></td>
         </tr>
       </table></td>
     </tr>

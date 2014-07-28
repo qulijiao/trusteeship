@@ -4,15 +4,15 @@
 	<package name="strutsqs" extends="struts-default" namespace="/" >
 		<action name="GoLogin" class="com.action.GoLogin">
 			<result name="input">/Login.jsp</result>
-			<result name="success">/Index.jsp</result>
+			<result name="success">/Index.jsp</result>			
+			<!--<result name="success">www.baidu.com</result>--> 
 		</action>
 		<action name="Quit" class="com.action.Quit">
 			<result name="success">/Login.jsp</result>
 		</action>
 		<action name="PasswordUpdateSave" class="com.action.PasswordUpdateSave">
 			<result name="input">/PasswordUpdate.jsp</result>
-		</action>
-		
+		</action>		
 		<action name="TeacherManager" class="com.action.TeacherManager">
 			<result name="success">/TeacherManager.jsp</result>
 		</action>
