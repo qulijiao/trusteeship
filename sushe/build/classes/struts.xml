@@ -13,8 +13,8 @@
 		<action name="PasswordUpdateSave" class="com.action.PasswordUpdateSave">
 			<result name="input">/PasswordUpdate.jsp</result>
 		</action>		
-		<action name="TeacherManager" class="com.action.TeacherManager">
-			<result name="success">/TeacherManager.jsp</result>
+		<action name="RosterManager" class="com.action.trusteeship.RosterManager">
+			<result name="success">/trusteeship/RosterManager.jsp</result>
 		</action>
 		<action name="TeacherAddSave" class="com.action.TeacherAddSave">
 		</action>

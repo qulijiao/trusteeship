@@ -12,28 +12,30 @@ public class DBHelper {
 	//连接数据库
 	public Connection getConn(){
 		Connection conn = null;
+		
 		try{
 			Class.forName(jdbcName);
 		}
-		catch(Exception e){}
+		catch(Exception e){
+//			System.err.println(e.printStackTrace());
+			System.err.println("test");
+			System.err.println(e);
+		}
 		try{
 			conn=DriverManager.getConnection(dbUrl,dbUser,dbPassword);
 		}
-		catch(SQLException ex){}
+		catch(SQLException ex){
+//			System.err.println(ex);
+			ex.printStackTrace();
+		}
 		return conn;		
 	}
 	
 //    测试
 	public static void main(String[] args)
-	{
-		Connection c = new DBHelper().getConn();
+	{ 
 		System.out.println(new DBHelper().getConn());
-		try {
-			System.err.println(c.isClosed());
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+ 
 		
 	}
 	

@@ -32,7 +32,7 @@ public class TeacherManager extends ActionSupport {
 	public String getSearchKey() {
 		return SearchKey;
 	}
-	public void setSearchKey(String searchKey) {
+	public void setSearchKey(String searchKey){
 		SearchKey = searchKey;
 	}
 	//处理用户请求的execute方法
