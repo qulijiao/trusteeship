@@ -15,6 +15,7 @@
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
+                <!--管理员   -->
                 <%if(session.getAttribute("type").toString().equals("1")){%>
                 <tr>
                   <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="TeacherManager.action">托管所登记管理</a></td>
@@ -27,10 +28,7 @@
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
+                </tr>    
                 <tr>
                   <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="DomitoryManager.action">家长管理</a></td>
                 </tr>
@@ -41,67 +39,21 @@
                   <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="BuildingManager.action">消息通知管理</a></td>
                 </tr>
                 <tr>
+                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
+                </tr>
+                <tr>
                   <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentRZ.action">托管所资料编辑</a></td>
                 </tr>
+
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentTH.jsp">学生寝室调换</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentQC.jsp">学生迁出登记</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="AdminLog.action">学生缺寝记录</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="OutList.action">迁出记录</a></td>
-                </tr>
+                
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
                 <%}%>
-                <%if(session.getAttribute("type").toString().equals("2")){%>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="MyStudent.action">学生管理</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="MyLog.action">学生缺寝记录</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <%}%>
-                <%if(session.getAttribute("type").toString().equals("3")){%>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentLog.action">我的缺寝记录</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <%}%>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="PasswordUpdate.jsp">修改密码</a></td>
-                </tr>
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="Quit.action" onclick="return confirm('确定要退出系统吗？')">退出系统</a></td>
-                </tr>
+              
               </table>
               </td>
             </tr>
