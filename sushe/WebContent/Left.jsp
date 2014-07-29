@@ -40,15 +40,7 @@
                 </tr>
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                <tr>
-                  <td height="30" align="center" background="Images/left2.jpg" style="text-align:left; padding-left:40px;"><a href="StudentRZ.action">托管所资料编辑</a></td>
-                </tr>
-
-                <tr>
-                  <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
-                </tr>
-                
+                </tr> 
                 <tr>
                   <td height="5" align="center"><img src="Images/ic.gif" width="1" height="1"></td>
                 </tr>
