@@ -103,8 +103,7 @@ public class TeacherDao {
 				cnbean.setTeacher_Password(rs.getString("Teacher_Password"));
 				cnbean.setTeacher_Name(rs.getString("Teacher_Name"));
 				cnbean.setTeacher_Sex(rs.getString("Teacher_Sex"));
-				cnbean.setTeacher_Tel(rs.getString("Teacher_Tel"));
-				
+				cnbean.setTeacher_Tel(rs.getString("Teacher_Tel")); 
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

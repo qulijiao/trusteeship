@@ -16,12 +16,17 @@
 		<action name="RosterManager" class="com.action.trusteeship.RosterManager">
 			<result name="success">/trusteeship/RosterManager.jsp</result>
 		</action>
+		<action name="RosterManagerUpdate" class="com.action.trusteeship.RosterManagerUpdate">
+		    <result name="success">/trusteeship/RosterManagerUpdate.jsp</result>
+		</action>
+		
+				
 		<action name="TeacherAddSave" class="com.action.TeacherAddSave">
 		</action>
 		<action name="TeacherUpdate" class="com.action.TeacherUpdate">
 		    <result name="success">/TeacherUpdate.jsp</result>
 		</action>
-		<action name="TeacherUpdateSave" class="com.action.TeacherUpdateSave">
+		<action name="RosterManagerUpdateSave" class="com.action.trusteeship.RosterManagerUpdateSave">
 		</action>
 		<action name="TeacherDel" class="com.action.TeacherDel">
 		  <result name="success" type="chain">TeacherManager</result>

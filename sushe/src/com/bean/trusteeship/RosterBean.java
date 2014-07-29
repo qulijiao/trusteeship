@@ -55,10 +55,12 @@ public class RosterBean {
 	}
 
 	public int getStudentId() {
+		System.err.println("getStudentId"+studentId);
 		return studentId;
 	}
 
 	public void setStudentId(int studentId) {
+		System.err.println("setStudentId"+studentId );
 		this.studentId = studentId;
 	}
 
@@ -75,6 +77,7 @@ public class RosterBean {
 	}
 
 	public void setStudentname(String studentname) {
+		System.err.println("setStudentname"+ studentname);
 		this.studentname = studentname;
 	}
 
@@ -126,15 +129,16 @@ public class RosterBean {
 		this.desc = desc;
 	}
 
-	public List<RosterBean> getList() {
-		List<RosterBean> list=  new ArrayList<RosterBean>();
-		RosterBean rb1 = new RosterBean();
-		rb1.setStudentId(1);
-		rb1.setTrusteeshipid(1);
-		rb1.setStudentname("´ó¹·");
-		list.add(rb1);
-		return list;
-	}
- 
+//	public List<RosterBean> getList() {
+//		List<RosterBean> list=  new ArrayList<RosterBean>();
+//		RosterBean rb1 = new RosterBean();
+//		rb1.setStudentId(1);
+//		rb1.setTrusteeshipid(1);
+//		rb1.setStudentname("´ó¹·");
+//		list.add(rb1);
+//		return list;
+//	}
+
+
 
 }

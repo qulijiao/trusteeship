@@ -69,9 +69,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                       <td height="25" align="center">${studentname}</td>
                       <td>${sex}</td>
                       <td>${years}</td>
-                      <td align="center">${guardianname1}</td>
+                      <td >${guardianname1}</td>
                       <td align="center">${guardianPhone1}</td>
-                      <td align="center"><a href="TeacherUpdate.action?Teacher_ID=${trusteeshipid}">修改</a> <a href="TeacherDel.action?Teacher_ID=${Teacher_ID}" onClick="return confirm('确定要删除该楼宇管理员吗？')">删除</a></td>
+                      <td align="center"><a href="RosterManagerUpdate.action?studentid=${studentId}">修改</a> <a href="TeacherDel.action?Teacher_ID=${studentId}" onClick="return confirm('确定要删除该楼宇管理员吗？')">删除</a></td>
                     </tr>
                   </s:iterator>
                 </table></td>
