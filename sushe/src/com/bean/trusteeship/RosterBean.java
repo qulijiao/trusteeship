@@ -130,6 +130,7 @@ public class RosterBean {
 	}
 
 	public void setDesctribtion(String desc) {
+		System.err.println("RosterBean setDesctribtion  :"+desc);
 		this.desctribtion = desc;
 	}
 

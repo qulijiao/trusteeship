@@ -96,6 +96,8 @@ public class RosterManagerDao {
 				cnbean.setGuardianPhone2(rs.getString("guardianPhone2"));
 				cnbean.setRelationship2(rs.getString("relationship2"));
 				cnbean.setDesctribtion(rs.getString("desctribtion"));
+//				cnbean.setDesctribtion(rs.getString("desctribtion"));
+				
 				cnbean.setAddress(rs.getString("address"));
 			}
 		} catch (SQLException e) {
