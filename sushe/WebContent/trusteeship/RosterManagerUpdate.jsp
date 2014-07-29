@@ -119,7 +119,7 @@ return re.test(str);
                   </tr>    
                   <tr>
                     <td height="30" align="right"><span style="color:red;">*</span>备注：</td>
-                    <td><input name="describtion" type="text" class="text2" id="describtion" value="<s:property value='rb.describtion'/>"></td>
+                    <td><input name="description" type="text" class="text2" id="description" value="<s:property value='rb.description'/>"></td>
                   </tr>    
                   <tr>
                     <td height="30">&nbsp;</td>

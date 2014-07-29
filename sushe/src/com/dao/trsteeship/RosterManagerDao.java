@@ -48,7 +48,7 @@ public class RosterManagerDao {
 				cnbean.setGuardianname2(rs.getString("guardianname2"));
 				cnbean.setGuardianPhone2(rs.getString("guardianPhone2"));
 				cnbean.setRelationship2(rs.getString("relationship2"));
-				cnbean.setDesctribtion(rs.getString("desctribtion"));
+				cnbean.setDescription(rs.getString("description"));
 				cnbean.setAddress(rs.getString("address"));
 				list.add(cnbean);
 			}
@@ -95,7 +95,9 @@ public class RosterManagerDao {
 				cnbean.setGuardianname2(rs.getString("guardianname2"));
 				cnbean.setGuardianPhone2(rs.getString("guardianPhone2"));
 				cnbean.setRelationship2(rs.getString("relationship2"));
-				cnbean.setDesctribtion(rs.getString("desctribtion"));
+				cnbean.setDescription(rs.getString("description"));
+//				cnbean.setDesctribtion(rs.getString("desctribtion"));
+				
 				cnbean.setAddress(rs.getString("address"));
 			}
 		} catch (SQLException e) {
@@ -127,7 +129,7 @@ public class RosterManagerDao {
 		sql += "guardianname2='" + rb.getGuardianname2()   + "',";
 		sql += "guardianPhone2='" + rb.getGuardianPhone2() + "',";
 		sql += "address='" + rb.getAddress() 			   + "',";
-		sql += "desctribtion='" + rb.getDesctribtion() 		 			   + "'";
+		sql += "description='" + rb.getDescription() 		 			   + "'";
 		sql += " where studentId='" + rb.getStudentId()    + "'";
 		System.err.println("sql3=" + sql);
 		Statement stat = null;

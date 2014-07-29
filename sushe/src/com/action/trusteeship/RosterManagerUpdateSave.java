@@ -24,7 +24,7 @@ public class RosterManagerUpdateSave {
 	private String guardianname2;
 	private String guardianPhone2;
 	private String relationship2;
-	private String describtion;
+	private String description;
 	private String sex;
 	private String address;
 
@@ -139,14 +139,14 @@ public class RosterManagerUpdateSave {
 		this.guardianPhone2 = guardianPhone2;
 	}
 
-	public String getDescribtion() {
-		System.err.println("RosterManagerUpdateSave getdescribtion:"+ describtion);
-		return describtion;
+	public String getDescription() {
+		System.err.println("RosterManagerUpdateSave getdescribtion:"+ description);
+		return description;
 	}
 
-	public void setDescribtion(String describtion) {		
-		System.err.println("RosterManagerUpdateSave setdescribtion:"+ describtion);
-		this.describtion = describtion;
+	public void setDescription(String description) {		
+		System.err.println("RosterManagerUpdateSave setdescribtion:"+ description);
+		this.description = description;
 	}
 
 	public int getStudentid() {
@@ -180,7 +180,7 @@ public class RosterManagerUpdateSave {
 		rb.setGuardianPhone2(guardianPhone2);
 		rb.setRelationship1(relationship1);
 		rb.setRelationship2(relationship2);		
-		rb.setDesctribtion(describtion);
+		rb.setDescription(description);
 		rb.setSex(sex);
 		rb.setAddress(address);
 		

@@ -16,7 +16,7 @@ public class RosterBean {
 	private String guardianname2;
 	private String guardianPhone2;
 	private String relationship2;
-	private String desctribtion;
+	private String description;
 	private String sex;
 	private String address;
 	
@@ -124,13 +124,14 @@ public class RosterBean {
 		this.guardianPhone2 = guardianPhone2;
 	}
 
-	public String getDesctribtion() {
-		System.err.println("desctribtion="+desctribtion);
-		return desctribtion;
+	public String getDescription() {
+		System.err.println("getDescription="+description);
+		return description;
 	}
 
-	public void setDesctribtion(String desc) {
-		this.desctribtion = desc;
+	public void setDescription(String desc) {
+		System.err.println("RosterBean setDesctribtion  :"+desc);
+		this.description = desc;
 	}
 
 //	public List<RosterBean> getList() {
