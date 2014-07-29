@@ -75,7 +75,7 @@ return re.test(str);
                   </tr>
                   <tr>
                     <td height="30" align="right"><span style="color:red;">*</span>学生姓名：</td>
-                    <td><input name="Teacher_Username" type="text" class="text2" id="studentname" value="<s:property value='rb.studentname'/>"></td>
+                    <td><input name="studentname" type="text" class="text2" id="studentname" value="<s:property value='rb.studentname'/>"></td>
                   </tr>
                   <tr>
                     <td height="30" align="right"><span style="color:red;">*</span>性别：</td>
@@ -119,8 +119,8 @@ return re.test(str);
                   </tr>    
                   <tr>
                     <td height="30" align="right"><span style="color:red;">*</span>备注：</td>
-                    <td><input name="desc" type="text" class="text2" id="desc" value="<s:property value='rb.desc'/>"></td>
-                  </tr>            
+                    <td><input name="describtion" type="text" class="text2" id="describtion" value="<s:property value='rb.describtion'/>"></td>
+                  </tr>    
                   <tr>
                     <td height="30">&nbsp;</td>
                     <td><input type="submit" name="button" id="button" value="保存">

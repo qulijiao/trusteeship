@@ -16,7 +16,7 @@ public class RosterBean {
 	private String guardianname2;
 	private String guardianPhone2;
 	private String relationship2;
-	private String desc;
+	private String desctribtion;
 	private String sex;
 	private String address;
 	
@@ -65,6 +65,7 @@ public class RosterBean {
 	}
 
 	public int getTrusteeshipid() {
+		System.err.println("getTrusteeshipid"+trusteeshipid);
 		return trusteeshipid;
 	}
 
@@ -73,6 +74,7 @@ public class RosterBean {
 	}
 
 	public String getStudentname() {
+		System.err.println("getStudentname:"+ studentname);
 		return studentname;
 	}
 
@@ -110,6 +112,7 @@ public class RosterBean {
 	}
 
 	public void setGuardianname2(String guardianname2) {
+		System.err.println("updatesave setGuardianname2 "+guardianname2);
 		this.guardianname2 = guardianname2;
 	}
 
@@ -121,12 +124,13 @@ public class RosterBean {
 		this.guardianPhone2 = guardianPhone2;
 	}
 
-	public String getDesc() {
-		return desc;
+	public String getDesctribtion() {
+		System.err.println("desctribtion="+desctribtion);
+		return desctribtion;
 	}
 
-	public void setDesc(String desc) {
-		this.desc = desc;
+	public void setDesctribtion(String desc) {
+		this.desctribtion = desc;
 	}
 
 //	public List<RosterBean> getList() {

@@ -106,11 +106,11 @@ public class StudentUpdateSave extends ActionSupport {
 			cnbean.setStudent_Password(Student_Password);
 		}
 		new StudentDao().Update(cnbean);
-		    
+ 
 		//跳转
 		out.print("<script language='javascript'>alert('修改成功！');window.location='StudentManager.action';</script>");
 		out.flush();out.close();return null;
-		
+
 	}
 	
 	//判断是否空值

@@ -17,6 +17,7 @@
 			<result name="success">/trusteeship/RosterManager.jsp</result>
 		</action>
 		<action name="RosterManagerUpdate" class="com.action.trusteeship.RosterManagerUpdate">
+		    <result name="input">/trusteeship/RosterManagerUpdate.jsp</result>
 		    <result name="success">/trusteeship/RosterManagerUpdate.jsp</result>
 		</action>
 		
